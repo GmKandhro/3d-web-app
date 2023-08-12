@@ -42,7 +42,7 @@ const MenuMobile = ({ showCatMenu, setShowCatMenu }) => {
                         </li>
                     ) : (
                         <li className='cursor-pointer'>
-                            <Link href={item?.url} onClick={()=>setShowCatMenu(false)}>{item?.name}</Link>
+                            <Link href='/' onClick={()=>setShowCatMenu(false)}>{item?.name}</Link>
                         </li>
                     )} 
                 </React.Fragment>
